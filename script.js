@@ -1,0 +1,21 @@
+$('.tarkikComandSlider').slick({
+    slidesToShow: 3,
+   slidesToScroll: 1,
+   autoplay: true,
+   autoplaySpeed: 5000,
+   dots: true,
+   });
+
+   var linkClicked = document.getElementsByClassName('nav-link');
+var numClass = linkClicked.length;
+
+for (var i = 0; i < numClass; i++) {
+		linkClicked[i].addEventListener('click', function(){
+      var onTheMoment = document.getElementsByClassName('active');
+			onTheMoment[0].className = onTheMoment[0].className.replace(' active', '');
+			this.className += ' active';
+    }, false);
+    }
+    
+// junk
+

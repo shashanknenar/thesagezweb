@@ -1,0 +1,174 @@
+.navbar-nav ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.navbar-nav ul {
+    display: inline-flex!important;
+} */
+.navbar-nav a:hover{
+  color: green!important;
+}
+nav li{
+    text-align: center;
+    text-transform: uppercase;
+}
+li > a:after{
+    content: '';
+    display: block;
+    height: 1.5px;
+    background: green;
+    transform: scaleX(0);
+    transition: transform .3s;
+}
+li > a:hover:after{
+    transform: scaleX(1);
+    transition: transform .3s;
+}
+.active{
+    color: green !important;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+html,body{
+    position: relative;
+    overflow-x: hidden;
+}
+
+body {
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size:17px!important;
+}
+
+ .carousel-indicators li{
+    width: 10px!important;
+    height: 10px!important;
+    border-radius: 50%!important;
+    margin-left: 10px!important;
+}
+ .carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 40px!important;
+    height: 40px!important;
+}
+ .car-top {
+    top: 0;
+    bottom: auto;
+}
+ .car-middle{
+    padding-bottom: 250px!important;
+}
+ h1{
+    font-weight: 500!important;
+}
+
+.wrapper{
+    margin-top: 90px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.a-dot{
+    color: rgb(92, 90, 90);
+}
+.a-card{
+    padding: 0 3%!important;
+}
+.a-head{
+    font-weight: 700!important;
+}
+@media (max-width:576px){ 
+    .a-card{
+        width: 50%!important;
+        padding:0!important;
+    }  
+    .a-dot{
+        display: none;
+    }
+}
+@media (max-width:600px){
+    .a-text{
+        width: 95%;
+    }
+}
+@media (max-width:426px){
+    .a-text{
+        font-size: 15px;
+    }
+    .a-card{
+        width: 70%!important;
+    }
+}
+@media (max-width:350px){
+    .a-card{
+        width: 100%!important ;
+    }
+    .a-head h1{
+    font-size: 30px!important;
+    }
+}
+
+
+.f-block .d-flex {
+    padding: 2% 0;
+}
+.section-title p{
+    display: inline-block;
+    font-size: 20px;
+    text-transform: capitalize;
+    position: relative;
+    font-weight: 300;
+    padding-top: 1.5rem;
+}
+.section-title p:before{
+    content: '';
+    left: 0px;
+    position: absolute;
+    height: 4px;
+    right: 50%;
+    bottom: -20px;
+    background-color: green;
+}
+@media (max-width:1025px){
+    .f-text {
+        font-size: 18px!important;     
+    }
+    .f-num{
+        font-size: 25px!important;
+    }   
+}
+
+@media (max-width:800px){
+    .f-text {
+        font-size: 17px!important;   
+    }
+    .f-num{
+        font-size: 25px!important;
+    }
+}
+@media (max-width:576px){
+.f-block .d-flex {
+    padding: 0% 10%;
+}
+.four .f-head .col-lg-4 {
+    font-size: 25px!important;
+    text-align-last: center;
+}
+}
+@media (max-width:426px){
+.f-num{
+    font-size: 30px!important;
+}
+.f-text{
+    font-size: 15px!important;
+    padding-top: 2px!important;
+}
+.five-text{
+    text-align-last: center!important;
+}
+}
+
+.five-head{
+    font-size: 20px;
+}
+
+/* products page css */
+
