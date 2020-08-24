@@ -267,7 +267,7 @@ p {
 
 .card-header {
     min-height: 11rem;
-    background: #627482
+    background-image: url(images/tes.png);
 }
 
 h6 {
