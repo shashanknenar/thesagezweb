@@ -354,7 +354,7 @@ h6 {
     display: none;
 }
 
-.carousel-caption{
+.carousel-item .carousel-caption{
     position: absolute;
     bottom: 8px;
     left: 16px;
