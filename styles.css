@@ -1,3 +1,11 @@
+@font-face{
+    font-family: myFont;
+    src: url('Montsterrat.ttf');
+}
+div {
+    font-family: myFont;
+}
+
 html{
     scroll-behavior: smooth;
     
@@ -278,11 +286,11 @@ p {
 }
 
 h6 {
-    color: #333
+    color: #333;
 }
 
 .card {
-    background: #E6E7E9
+    background: #E6E7E9;
 }
 
 .img-1 {
@@ -291,7 +299,7 @@ h6 {
     height: auto;
     border-radius: 50%;
     top: -127px !important;
-    box-shadow: 3px 15px 20px rgba(0, 0, 0, 0.5)
+    box-shadow: teal;
 }
 
 .quotes {
@@ -312,7 +320,7 @@ h6 {
     opacity: 0.5;
     margin: 0 15px 18px 15px;
     color: #333;
-    background-color: #333 !important;
+    background-color: teal !important;
     top: -10px;
     position: relative
 }
@@ -346,3 +354,13 @@ h6 {
     display: none;
 }
 
+.carousel-caption{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.frst-part {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
