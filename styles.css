@@ -266,7 +266,7 @@ body {
     /* background-color: rgb(44, 44, 44) */
 }
 
-p {
+.test p {
     font-size: 14px;
     line-height: 20px !important;
     font-weight: 500
@@ -354,7 +354,7 @@ h6 {
     display: none;
 }
 
-.carousel-item .carousel-caption{
+.carousel-caption{
     position: absolute;
     bottom: 8px;
     left: 16px;
@@ -363,4 +363,11 @@ h6 {
     position: relative;
     text-align: center;
     color: white;
+  }
+
+
+
+  /* junkyy */
+  .card{
+      padding-top: 4%;
   }
