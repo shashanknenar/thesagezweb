@@ -145,7 +145,7 @@ h5.section-title:before{
     height: 4px;
     right: 50%;
     bottom: -20px;
-    background-color: green;
+    /* background-color: green; */
 }
 @media (max-width:1025px){
     .f-text {
@@ -371,4 +371,12 @@ h6 {
   .card{
       padding-top: 4%;
   }
-  
+  footer {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    margin-top:100px;
+  }
+  .copyright a{color:#01c7e9;transition: all 0.2s ease 0s;}
+.copyright a:hover{color:green;}
